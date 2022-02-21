@@ -7,11 +7,9 @@
       <h2>Filmes</h2>
 
       <div class="list-group list-group-flush">
-
-        <FilmesListaIten/>
-        <FilmesListaIten/>
-        <FilmesListaIten/>
-
+        <FilmesListaIten filmeTitulo="Vingadores: Guerra Infinita"/>
+        <FilmesListaIten filmeTitulo="Vingadores: 2"/>
+        <FilmesListaIten filmeTitulo="Pentera Negra"/>
       </div>
     </div>
 
