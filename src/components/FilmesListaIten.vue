@@ -1,11 +1,18 @@
 <template>
     <li class="list-group-item">
-        <span>{{ filmeTitulo }}</span>
+        <span>{{ filmeTituloConcatenado }}</span>
         <button class="btn btn-success float-right">Editar</button>
     </li>
 </template>
 <script>
 export default {
-    props: ['filmeTitulo']
+    props: {
+      filmeTitulo: String
+    },
+    computed:{
+        filmeTituloConcatenado(){
+            return `Titulo: ${this.filmeTitulo}`
+        }
+    }
 }
 </script>
