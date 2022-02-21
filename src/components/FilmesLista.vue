@@ -7,7 +7,7 @@
       <ul class="list-group list-group-flush">
         <FilmesListaIten v-for="filme in filmes" 
         :key="filme.id" 
-        v-bind="filme"
+        :filme="filme"
         />
       </ul>
     </div>
